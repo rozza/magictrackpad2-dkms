@@ -3,13 +3,13 @@ magictrackpad2-dkms
 
 A DKMS module for patching the bcm5974 and hid drivers to support the Apple Magic Trackpad 2.
 
-Tested with Kernel 4.15.0-20-generic on Ubuntu 16.04 LTS.
+Tested with Kernel 4.15.0-29-generic on Ubuntu 18.04 LTS.
 
 How to install
 --------------
 
 It should be enough to install the package. If it still doesn't work, you may have to copy the kernel modules from
-`/lib/modules/4.15.0-20-generic/updates/dkms/` to `/lib/modules/4.15.0-20-generic/kernel/drivers/hid/`
+`/lib/modules/4.15.0-29-generic/updates/dkms/` to `/lib/modules/4.15.0-29-generic/kernel/drivers/hid/`
 
 * http://unix.stackexchange.com/questions/240593/kernel-not-recognizing-new-devices-from-dkms-module
 
